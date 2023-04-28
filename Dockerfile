@@ -1,7 +1,7 @@
-FROM Tepthonee/PPF22:alpine
+FROM odbrg6/BIDU:alpine
 
 #clonning repo 
-RUN git clone https://github.com/odbrg6/PPF22/tree/master.git /root/zthon
+RUN git clone https://github.com/odbrg6/BIDU/tree/master.git /root/zthon
 #working directory 
 WORKDIR /root/zthon
 
