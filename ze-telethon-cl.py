@@ -54,7 +54,7 @@ try:
 except FileNotFoundError:
     api_id = '22877012'
     api_hash = '6d59bf3287c22f491e291a8a366c997c'
-    bot_token = '6188266684:AAEU9sndZ3WCN6Mp6cnVmQ8-Br54D6stjfs'
+    bot_token = '6188266684:AAF_c3ogs8ewkxS8nXROe9qqaZcDogRucpQ'
     DEVLOO = '6024124201'
     MAX_ACCOUNTS = int('50')
     user_bot = 'UN_6bot'
