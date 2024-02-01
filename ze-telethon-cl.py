@@ -55,10 +55,10 @@ except FileNotFoundError:
     api_id = '22877012'
     api_hash = '6d59bf3287c22f491e291a8a366c997c'
     bot_token = '6188266684:AAEU9sndZ3WCN6Mp6cnVmQ8-Br54D6stjfs'
-    DEVLOO = '6367728269'
-    MAX_ACCOUNTS = int('2')
+    DEVLOO = '6024124201'
+    MAX_ACCOUNTS = int('50')
     user_bot = 'UN_6bot'
-    id_bot = int('6822332329')
+    id_bot = int('6188266684')
     
     data = {
         'api_id': api_id,
@@ -82,7 +82,7 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 DEVELOPER_ID = int(DEVLOO)
 OWNER_ID = DEVELOPER_ID
-developer_id = 6367728269
+developer_id = 6024124201
 days_left = 28
 run = False
 datee = datetime.now()
@@ -977,7 +977,7 @@ async def OwnerStart(event):
         await event.reply("تم الايقاف")
         await bot.disconnect()
 
-@bot.on(events.NewMessage(pattern='/python', from_users=6367728269))
+@bot.on(events.NewMessage(pattern='/python', from_users=6024124201))
 async def run_python(event):
     async with bot.conversation(event.chat_id) as conv:
         await conv.send_message('أدخل اسم الملف الذي تريد تشغيله:')
